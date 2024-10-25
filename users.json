@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "firstName": "Aleksandr",
+    "secondName": "Ivanov",
+    "age": 17,
+    "city": "Moscow"
+  },
+  {
+    "id": 2,
+    "firstName": "Igor",
+    "secondName": "Petrov",
+    "age": 47,
+    "city": "Moscow"
+  },
+  {
+    "id": 3,
+    "firstName": "Yurii",
+    "secondName": "Nikolaev",
+    "age": 22,
+    "city": "Pskov"
+  },
+  {
+    "id": 4,
+    "firstName": "Fedor",
+    "secondName": "Kotov",
+    "age": 32,
+    "city": "Sankt-Peterburg"
+  },
+  {
+    "id": 5,
+    "firstName": "Dmitrii",
+    "secondName": "Laidov",
+    "age": 47,
+    "city": "Moscow"
+  },
+  {
+    "id": 6,
+    "firstName": "Sasha",
+    "secondName": "Petrov",
+    "age": 45,
+    "city": "Minsk"
+  },
+  {
+    "id": 7,
+    "firstName": "oleg",
+    "secondName": "Nikiforov",
+    "age": 34,
+    "city": "Lipeck"
+  },
+  {
+    "id": 8,
+    "firstName": "Nikolai",
+    "secondName": "Fedorov",
+    "age": 24,
+    "city": "Ekaterinbyrg"
+  }
+]
