@@ -2,6 +2,10 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 
+
+
+const joi = require('joi');
+
 const app = express();
 const PORT = 3000;
 
@@ -10,6 +14,10 @@ const usersFilePath = path.join(__dirname, 'users.json');
 
 
 app.use(express.json());
+
+
+
+
 
 // Функция для чтения пользователей из файла
 const readUsersFromFile = () => {
@@ -24,6 +32,22 @@ const readUsersFromFile = () => {
 const writeUsersToFile = (users) => {
     fs.writeFileSync(usersFilePath, JSON.stringify(users, null, 2));
 };
+
+
+const userSchema = joi.object({
+    firstName: joi.string().min(1).required(),
+    secondName: joi.string().min(1).required(),
+    age: joi.string().min(0).max(150).required(),
+    city: joi.string().min(1)
+});
+
+
+app.get('/', (req, res) => {
+    const users = readUsersFromFile();
+    res.json(users);
+});
+
+
 
 
 app.get('/users', (req, res) => {

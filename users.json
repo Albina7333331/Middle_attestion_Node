@@ -1,16 +1,16 @@
 [
   {
     "id": 1,
-    "firstName": "Aleksandr",
-    "secondName": "Ivanov",
+    "firstName": "A",
+    "secondName": "Ivanova",
     "age": 17,
     "city": "Moscow"
   },
   {
     "id": 2,
     "firstName": "Igor",
-    "secondName": "Petrov",
-    "age": 47,
+    "secondName": "Ivanova",
+    "age": 17,
     "city": "Moscow"
   },
   {
